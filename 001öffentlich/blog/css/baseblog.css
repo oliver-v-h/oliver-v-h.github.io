@@ -11,6 +11,10 @@ html, body {
   background: #f9f2e7;
 }
 
+p {
+  hyphens: auto;
+}
+
 body {
   /*overflow: hidden;*/
   overflow-y: auto;
@@ -30,21 +34,21 @@ body {
   overflow: auto;
 }
 
-/*img {
+img {
   max-width: 100% !important;
-}*/
+}
 
 /*figure {
   margin: 0;
   padding: 0.5rem 1rem;
-}
+}*/
 
 figure > img {
   display: block;
   margin: 1em auto;
 }
 
-figcaption {
+/*figcaption {
   font-style: italic;
 }*/
 
@@ -53,16 +57,22 @@ figcaption {
 h5 {
   font-size: 1.25rem;
   font-weight: bold;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
 }
 
 h6 {
   font-size: 1rem;
   font-weight: normal;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
 }
 
 small {
   font-size: 0.6rem;
-  /*font-weight: bold;*/
+  font-weight: normal;
+  /*line-height: 0;*/
+  /*margin: ;*/
 }
 
 .card {
