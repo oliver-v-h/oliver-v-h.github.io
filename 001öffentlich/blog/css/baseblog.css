@@ -15,6 +15,18 @@ p {
   hyphens: auto;
 }
 
+/*details summary.open {
+  display: none;
+}
+
+details[open] summary.closed {
+  display: none;
+}
+
+details[open] summary.open {
+  display: list-item;
+}*/
+
 body {
   /*overflow: hidden;*/
   overflow-y: auto;
@@ -77,8 +89,8 @@ h6 {
 small {
   font-size: 0.6rem;
   font-weight: normal;
-  /*line-height: 0;*/
-  /*margin: ;*/
+  /*line-height: 0rem;
+  margin: ;*/
 }
 
 .card {
