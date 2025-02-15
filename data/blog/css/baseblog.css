@@ -8,7 +8,7 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: 'Source Code Pro';
-  background: #f9f2e7;
+  background: #d8d8d8;
 }
 
 p {
@@ -99,11 +99,11 @@ small {
   margin: 1rem;
 }
 
-header {
-  background-color: #38cb2d;
+.header {
+  background-color: #f7cca5;
   /*color: #6d6d82;*/
-  color: #212183;
-  border-bottom: solid 4px #212183;
+  color: #a17c4b;
+  border-bottom: solid 4px #000000;
   font-style: italic;
   font-weight: bold;
   display: flex;
@@ -157,9 +157,9 @@ p { text-align: justify; }*/
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ffffff;
-  margin: 20px;
-
+  background: #f7cca5;
+  border-top: solid, 4px #000000;
+  /*margin: 20px;*/
 }
 
 @media screen and (max-width: 600px) {
