@@ -11,6 +11,12 @@ html, body {
   background: #d8d8d8;
 }
 
+/* Wenn nach der ersten Zeile ein Einzug dargestellt werden soll*/
+.hanging-indent { 
+  padding-left: 40px;
+  text-indent: -40px;
+}
+
 p {
   hyphens: auto;
 }
