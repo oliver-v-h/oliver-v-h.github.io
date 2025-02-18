@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+.mindmap {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.node {
+    background: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.node2 {
+    background: #d7b26b;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.center-node {
+    top: 50%;
+    left: 50%;
+    background: #e74c3c;
+}
+
+.node-line {
+    position: absolute;
+    width: 2px;
+    background: #3498db;
+    transform-origin: bottom;
+    top: 50%;
+    left: 50%;
+}
