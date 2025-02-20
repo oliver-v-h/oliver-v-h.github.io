@@ -14,10 +14,13 @@ body {
 }
 
 .node {
-    background: #3498db;
-    color: white;
+    background: #fff;
+    color: #333;
     padding: 10px 20px;
+    border: 2px solid #ddd;
     border-radius: 50%;
+    /*border-color: #d7b26b;*/
+    box-shadow: 0 4px 80x rgba(0, 0, 0, 0.1);
     text-align: center;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -26,7 +29,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
 }
 
 .node2 {
