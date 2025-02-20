@@ -1,0 +1,39 @@
+.header {
+    background-color: #f7cca5;
+    /*color: #6d6d82;*/
+    color: #a17c4b;
+    border-bottom: solid 4px #000000;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    /*align-items: center;*/
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+    width: 100vw;
+    top: 0;
+    white-space: break-spaces;
+  }
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Code Pro';
+    background: #d8d8d8;
+  }
+
+.card {
+    background-color: #ffffff;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+  }
+
+.column {
+    float: left;
+    width: 100%;
+  }
+  
+.rightcolumn {
+    float: left;
+    width: 38%;
+    padding-left: 0px;
+  }
