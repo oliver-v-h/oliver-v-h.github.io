@@ -106,9 +106,11 @@ small {
 }
 
 .header {
-  background-color: #f7cca5;
+  /*background-color: #f7cca5; ----  Orange */ 
+  background-color: #cc0000;
   /*color: #6d6d82;*/
-  color: #a17c4b;
+  /*color: #a17c4b; ---- Braunes Schrift */
+  color: #ffd700;
   border-bottom: solid 4px #000000;
   font-style: italic;
   font-weight: bold;
@@ -163,8 +165,9 @@ p { text-align: justify; }*/
 .footer {
   padding: 20px;
   text-align: center;
-  background: #f7cca5;
+  background: #cc0000;
   border-top: solid 4px #000000;
+  color: #ffd700;
   /*margin: 20px;*/
 }
 
