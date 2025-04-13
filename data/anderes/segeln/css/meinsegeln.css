@@ -4,7 +4,7 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: 'Source Code Pro';
-  background: #d8d8d8;
+  background: #c2eae6;
 }
 
 /* Wenn nach der ersten Zeile ein Einzug dargestellt werden soll*/
@@ -84,7 +84,7 @@ small {
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: #f1f4f4;
   padding: 0.5rem 1rem;
   margin: 1rem;
 }
