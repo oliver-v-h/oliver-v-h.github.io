@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700;800&display=swap');
 
+
 html, body {
   padding: 0;
   margin: 0;
@@ -83,10 +84,37 @@ small {
   font-weight: normal;
 }
 
-.card {
+.card{
   background-color: #f1f4f4;
   padding: 0.5rem 1rem;
   margin: 1rem;
+}
+
+.card-layout {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+  .card {
+    flex-direction: column;
+  }
+}
+.card-text {
+  flex: 1 1 300px;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-image {
+  max-width: 100%;
 }
 
 .header {
