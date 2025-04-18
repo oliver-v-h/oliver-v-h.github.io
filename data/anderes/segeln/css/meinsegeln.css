@@ -93,16 +93,20 @@ small {
 .card-layout {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 0rem;
   align-items: flex-start;
   flex-wrap: wrap;
 }
 
 @media (max-width: 700px) {
+  .card-image {
+    max-width: 100%;
+  }
   .card {
     flex-direction: column;
   }
 }
+
 .card-text {
   flex: 1 1 300px;
 }
@@ -114,7 +118,9 @@ small {
 }
 
 .card-image {
-  max-width: 100%;
+  max-width: 250px;
+  flex: 0 0 auto;
+  width: 100%;
 }
 
 .header {
