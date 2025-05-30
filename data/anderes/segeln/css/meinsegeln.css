@@ -5,7 +5,7 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: 'Source Code Pro';
-  background: #c2eae6;
+  background: url('../bilder/Triest.jpg') no-repeat center center fixed;
 }
 
 /* Wenn nach der ersten Zeile ein Einzug dargestellt werden soll*/
