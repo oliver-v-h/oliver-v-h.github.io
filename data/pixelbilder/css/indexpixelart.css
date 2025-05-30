@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Source Code Pro', monospace;
+  background: #d8d8d8;
+  color: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  background-color: #cc0000;
+  color: #ffd700;
+  padding: 1rem;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2rem;
+  border: 4px solid #000;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+}
+
+main.gallery {
+  display: grid;
+  padding: 1rem;
+  gap: 1rem;
+  margin: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.gallery figure {
+    background-color: #d8d8d8;
+    padding: 0.5rem;
+    margin: 0;
+    border-radius: 8px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.gallery figcaption {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+  color: #333;
+}
