@@ -15,7 +15,17 @@ body {
   flex-direction: column;
 }
 
-.header,
+.header {
+  background-color: #cc0000;
+  color: #ffd700;
+  padding: 1rem;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2rem;
+  border-bottom: 4px solid #000;
+}
+
 .footer {
   background-color: #cc0000;
   color: #ffd700;
@@ -24,7 +34,7 @@ body {
   font-style: italic;
   font-weight: bold;
   font-size: 2rem;
-  border: 4px solid #000;
+  border-top: 4px solid #000;
 }
 
 .card {
@@ -42,17 +52,21 @@ main.gallery {
 }
 
 .gallery figure {
-    background-color: #d8d8d8;
-    padding: 0.5rem;
-    margin: 0;
-    border-radius: 8px;
+  padding: 0.5rem;               /* halb so groß wie das gap */
+  margin: 0;
+  background-color: #d8d8d8;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .gallery img {
-  width: 100%;
-  height: auto;
-  display: block;
+  width: 100%;       /* skaliert auf volle Breite des Containers */
+  height: auto;      /* behält Seitenverhältnis */
+  max-width: 5cm;    /* Begrenzung auf 5cm Breite */
   border-radius: 8px;
+  display: block;
 }
 
 .gallery figcaption {
