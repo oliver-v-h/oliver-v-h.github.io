@@ -43,12 +43,12 @@ body {
     margin: 1rem;
 }
 
-main.gallery {
+.gallery {
   display: grid;
   padding: 1rem;
   gap: 1rem;
   margin: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
 .gallery figure {
@@ -64,7 +64,7 @@ main.gallery {
 .gallery img {
   width: 100%;       /* skaliert auf volle Breite des Containers */
   height: auto;      /* behält Seitenverhältnis */
-  max-width: 5cm;    /* Begrenzung auf 5cm Breite */
+  max-width: 15rem;    /* Begrenzung auf 5cm Breite */
   border-radius: 8px;
   display: block;
 }
