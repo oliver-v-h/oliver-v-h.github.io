@@ -1,1 +1,51 @@
-.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Mietsachen</title>
+
+    <link rel="stylesheet" href="../../../data/css/index.css">
+
+    <meta name="description" content="Miete">
+    <meta property="og:title" content="Geschmückte Leichen: Weihnachtsbäume">
+    <meta property="og:description" content="Warum nicht den Gedanken der Wiederverwertung auch auf das Fest einer Geburt ausweiten.">
+    <meta property="og:locale" content="de_CH">
+    <meta property="og:type" content="article">
+    <meta name="theme-color" content="#97D9E1">
+  </head>
+
+
+  <body>
+    <div class="header">
+      <h3>Mietsachen</h3>
+    </div>
+
+    <div class="row"></div>
+      <div class="column">
+        <div class="card">
+          <p>Ein Gedicht über die Verwendung von gefällten Bäumen für Weihnachten.</p>
+          <small>Zum Anlass einer Weihnachtsfeier im Jahre 2023,<br>
+            Oliver v. Hirschheydt, Dezember 2023</small><br>
+          <p><a href="../../../index.html">zurück zur Hauptseite</a></p>
+        </div> 
+      
+        <div class="card">
+          <p>Text für Miete</p>
+      </div>
+    
+        <div class="card">
+          <small>edit: 15. Februar 2025, verschoben ins Archiv</small><br>
+          <small>edit: 5. Februar 2025, Reimschema und Wortwahl, teilweise Kürzungen</small><br>
+          <small>erstmals vorgetragen: 16. Dezember 2023</small>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <div class="footer">
+    <h3>----</h3>
+  </div>
+
+</html>
