@@ -138,9 +138,14 @@ Chake gusto -> Film
     <div class="card"> <!-- CH Armee, Tenü A -->
         <h5>Organisation der Schweizer Armee</h5>
         <p>Ich bin weit davon entfernt zu wissen, wie es in den Tiefen der Armeeorganisation aussieht, aber was ich an der Oberfläche sehe, reicht aus mich zu beunruhigen. Hier ein Beispiel.</p>
-        <small>Oliver v. Hirschheydt, 9. Februar 2025</small>
-        <details>
-          <summary>mehr/weniger</summary>
+        <small>Oliver v. Hirschheydt, 9. Februar 2025</small><br><br>
+
+          <button onclick="document.getElementById('armee-details').open = true">Artikel öffnen</button>
+
+        <details id="armee-details">
+
+          <summary style="display:none"></summary>
+
           <p>Am 6. Januar 2025 veröffentlicht die Gruppe Verteidigung eine Mitteilung über neue Sparmassnahmen, welche innerhalb der Armee gelten.</p>
           <figure>
             <img src="../data/articles/tenua/images/20250106Sparmassnahmen.png"/>
@@ -158,6 +163,9 @@ Chake gusto -> Film
             <figcaption>Antwortmail des Personellen der Armee vom 22. Januar 2025</figcaption>
           </figure>
           <p>Es mag für das Armeebudget ein Kleinigkeit darstellen das nicht definiert ist, wie die Einsparungen von 210 Millionen Schweizer Franken ausgeführt werden soll. Aber der Eindruck, welcher von aussen entsteht ist nicht gut. Besonders wenn die Armee wegen ihren anderen Sparmassnahmen nicht gerade positiv in den Medien ist.</p>
+          
+          <button onclick="this.closest('details').open = false">Artikel schliessen</button>
+          
           <hr>
           <small>veröffentlicht: 9. Februar 2025<br>
           edit: 11. Februar 2025, Grammatik<br>

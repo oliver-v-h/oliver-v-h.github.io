@@ -11,6 +11,10 @@ html, body {
   background: #d8d8d8;
 }
 
+details button {
+  font-family: 'Source Code Pro';
+}
+
 /* Wenn nach der ersten Zeile ein Einzug dargestellt werden soll*/
 .hanging-indent { 
   padding-left: 40px;
@@ -21,20 +25,7 @@ p {
   hyphens: auto;
 }
 
-/*details summary.open {
-  display: none;
-}
-
-details[open] summary.closed {
-  display: none;
-}
-
-details[open] summary.open {
-  display: list-item;
-}*/
-
 body {
-  /*overflow: hidden;*/
   overflow-y: auto;
   height: 100vh;
   width: 100vw;
@@ -47,7 +38,6 @@ body {
   padding: 0 1rem;
   box-sizing: border-box;
   width: 80ch;
-  /*max-width: 100%;*/
   margin: 0 auto auto auto;
   overflow: auto;
 }
@@ -55,11 +45,6 @@ body {
 img {
   max-width: 100% !important;
 }
-
-/*figure {
-  margin: 0;
-  padding: 0.5rem 1rem;
-}*/
 
 figure > img {
   display: block;
@@ -72,6 +57,7 @@ figcaption {
   font-size: 0.75rem;
   margin-top: 0.2rem;
 }
+
 
 h4 {
   font-size: 1.1rem;
@@ -95,8 +81,6 @@ h6 {
 small {
   font-size: 0.6rem;
   font-weight: normal;
-  /*line-height: 0rem;
-  margin: ;*/
 }
 
 .card {
@@ -106,16 +90,12 @@ small {
 }
 
 .header {
-  /*background-color: #f7cca5; ----  Orange */ 
   background-color: #cc0000;
-  /*color: #6d6d82;*/
-  /*color: #a17c4b; ---- Braunes Schrift */
   color: #ffd700;
   border-bottom: solid 4px #000000;
   font-style: italic;
   font-weight: bold;
   display: flex;
-  /*align-items: center;*/
   padding: 0.5rem 1rem;
   font-size: 2rem;
   width: 100vw;
@@ -123,18 +103,9 @@ small {
   white-space: break-spaces;
 }
 
-/*.articles > ul > li {
-  list-style: none;
-}
-
-.articles > ul {
-  padding-left: 1rem;
-}*/
-
 .leftcolumn {
   float: left;
   width: 62%;
-  /*margin-right: 10px;*/
 }
 
 .rightcolumn {
@@ -143,24 +114,11 @@ small {
   padding-left: 0px;
 }
 
-/*.row + .row {
-  margin-top: 20px;
-}*/
-
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
-/*.articles > ul > li:before {
-  content: '\219D';
-  margin-right: 1rem;
-}
-
-.lightborder { 
-  border: solid 1px rgba(0,0,0, 0.3); }
-p { text-align: justify; }*/
 
 .footer {
   padding: 20px;
