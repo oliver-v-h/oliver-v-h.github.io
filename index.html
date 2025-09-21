@@ -248,9 +248,13 @@ Chake gusto -> Film
     <div class="card"> <!-- Yallo AGBs -->
         <h5>Wie ein Anruf bei Yallo deren AGBs ändern kann.</h5>
         <p>Als ich in den AGBs von yallo den Abschnitt entdeckte, demnach man sich von der weitergabe von persönlichen Daten exkludieren lassen kann, habe ich dies versucht zu erreichen.</p>
-        <small>Oliver v. Hirschheydt, 5. Januar 2025</small>
-        <details>
-          <summary>mehr/weniger</summary>
+        <small>Oliver v. Hirschheydt, 5. Januar 2025</small><br><br>
+
+        <button onclick="document.getElementById('yallo-details').open = true">Artikel öffnen</button>
+
+        <details id="yallo-details">
+          <summary style="display:none"></summary>
+
           <p>Grosse Firmen reagieren nicht auf kleine Leute und machen was sie wollen?</p>
           <p>Vielleicht ist es nicht so schlimm.</p>
           <p>Auch mit kleinsten Tätigkeiten kann man scheinbar etwas ändern. Hier ein kleines Beispiel. Wie üblich nimmt sich yallo heraus mit den Kundendaten einen Vorteil auf dem Markt zu erlangen. Aber freundlicher weise gaben mir die AGBs auch die Möglichkeit die Verwendung meiner Daten einzuschränken.</p>
@@ -275,10 +279,13 @@ Chake gusto -> Film
           <p>Was lernen wir daraus? Auch mit minimalem Aufwand kann man Firmen zu etwas bewegen. Haben sie meine Rechte beschränkt? Ja. Habe ich dies verursacht? Möglich. Finde ich es dir richtige Art der Kommunikation? Nein.</p>
           <p>Dennoch wurde <b>etwas</b> bewegt. Es ist möglich.</p>
           <p>Wer über eine AGB von vor 2023 von yallo verfügt, möge sich bitte bei mir melden. Ich möchte herausfinden wie schnell sich die AGBs genau geändert haben.</p>
-        <hr>
-        <small>publiziert: 5. Januar 2025</small><br>
-        <small>edit: 9. Januar 2025: Grammatik, Fehlerbehebung Bild<br>
-        edit: 12. Januar 2025: kl. Anpassungen am Artikel</small></p>
+        
+          <button onclick="this.closest('details').open = false">Artikel schliessen</button>
+
+          <hr>
+          <small>publiziert: 5. Januar 2025</small><br>
+          <small>edit: 9. Januar 2025: Grammatik, Fehlerbehebung Bild<br>
+          edit: 12. Januar 2025: kl. Anpassungen am Artikel</small></p>
       </div>  
     </div>
 
