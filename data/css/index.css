@@ -90,8 +90,8 @@ small {
 }
 
 .header {
-  background-color: #cc0000;
-  color: #ffd700;
+  background-color: rgb(204, 0, 0);
+  color: rgb(255, 215, 0);
   border-bottom: solid 4px #000000;
   font-style: italic;
   font-weight: bold;
