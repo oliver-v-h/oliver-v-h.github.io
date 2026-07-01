@@ -83,10 +83,35 @@ small {
   font-weight: normal;
 }
 
+/*.card-summary {
+  background-color: #ffffff;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+} */
+
 .card {
   background-color: #ffffff;
   padding: 0.5rem 1rem;
   margin: 1rem;
+}
+
+.card-article {
+  background-color: #ffffff;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+/*.cta {
+  display: inline-block;
+  margin-top: 8px;
+  font-weight: bold;
+  color: red;
+}*/
+
+.card-article:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .header {
